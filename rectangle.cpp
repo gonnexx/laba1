@@ -26,6 +26,6 @@ int main() {
     cout << "Периметр: " << perimeter << endl;
     cout << "Площадь: " << area << endl;
     cout << "Длина диагонали: " << diagonal << endl;
-    
+    cout <<"ТЫ МОЛОДЕЦ"<< endl;
     return 0;
 }
