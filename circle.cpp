@@ -25,7 +25,7 @@ int main() {
     cout << "Радиус: " << radius << endl;
     cout << "Длина окружности: " << circumference << endl;
     cout << "Площадь круга: " << area << endl;
-    
+    cout << "kommentariy" << endl;
     // Дополнительно: площадь кругового сектора
     char choice;
     cout << "\nВычислить площадь кругового сектора? (y/n): ";
