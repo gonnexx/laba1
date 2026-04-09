@@ -1,0 +1,71 @@
+commit 6246a9d2b3d4d889ee4148a8592852e5cc5e7357
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Wed Apr 8 00:18:53 2026 +0700
+
+    ечо
+
+commit c941119f5fb13b2c7494e550765179576c7f44ec
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Tue Apr 7 19:20:28 2026 +0700
+
+    чозабред
+
+commit bf3df2c013d4a97a0d9d948871d513a48a546f8a
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Tue Apr 7 19:19:30 2026 +0700
+
+    аничо
+
+commit 6c7f13baab0367d91b67299caa39cbdceb51f951
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Tue Apr 7 19:16:09 2026 +0700
+
+    чочочо
+
+commit 6aeb00d5f74ac138cb47b82c314d8ff63c4751a4
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Tue Apr 7 19:14:06 2026 +0700
+
+    комит
+
+commit 2b9726ded16f1f399add52d12917f2c30c706650
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Tue Apr 7 18:22:12 2026 +0700
+
+    текст
+
+commit 7e1c9fd6801b699a663431a8ecf485f2228f9bb4
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Tue Apr 7 18:15:41 2026 +0700
+
+    Удалил ненужные файлы
+
+commit f286d076c3783353833702c5e4c3ca06a86772d5
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Tue Apr 7 18:09:21 2026 +0700
+
+    комит
+
+commit 772b1a4bda65c179e292ab8aedc508dd3007975b
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Mon Apr 6 10:18:03 2026 +0700
+
+    Обновил код треугольника
+
+commit edf47539983b76ff5429d7fabcaea7a05f580d8a
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Mon Apr 6 10:11:47 2026 +0700
+
+    Замена кода на исправленную версию
+
+commit 21b43d4ff267fbcc4a359225cc69665727556684
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Mon Apr 6 09:37:44 2026 +0700
+
+    ИСправил ошибку
+
+commit ffbbf807912ac9777515362ef40a054370932f3b
+Author: artemkhaha@mail.ru <artemkhaha@mail.ru>
+Date:   Sun Apr 5 22:40:06 2026 +0700
+
+    laba_1

@@ -1,0 +1,469 @@
+    1  apt wim
+    2  top
+    3  clear
+    4  top
+    5  date
+    6  git clone https://github.com/Sergeydigl3/zapret-discord-youtube-linux.git
+    7  cd zapret-discord-youtube-linux
+    8  ./service.sh download-deps --default
+    9  ./service.sh
+   10  https://github.com/Sergeydigl3/zapret-discord-youtube-linux.git
+   11  git clone https://github.com/Sergeydigl3/zapret-discord-youtube-linux.git
+   12  cd zapret-discord-youtube-linux
+   13  ./service.sh download-deps --default
+   14  ./service.sh
+   15  ./service.sh download-deps --default
+   16  ./service.sh
+   17  cd Загрузки/
+   18  cd zapret-discord-youtube-linux-master
+   19  ./service.sh
+   20  y
+   21  cd Загрузки/
+   22  cd zapret-discord-youtube-linux-master/
+   23  cd Загрузки/
+   24  cd zapret-discord-youtube-linux-master/
+   25  ./service.sh
+   26  sudo apt update
+   27  sudo apt install git
+   28  git --version
+   29  git clone https://github.com/Sergeydigl3/zapret-discord-youtube-linux.git
+   30  cd zapret-discord-youtube-linux
+   31  ./service.sh download-deps --default
+   32  ./service.sh
+   33  $HOME/zapret-configs/utils-zapret.sh
+   34  zapret-utils
+   35  ./service.sh
+   36  sudo system stop zapret
+   37  sudo systemctl stop zapret
+   38  apt-get install git
+   39  sudo systemctl stop zapret
+   40  sudo nano /opt/zapret/config.default
+   41  cd ~/zapret-discord-youtube-linux
+   42  nano lists/hostlist.txt
+   43  ls -la ~/zapret-discord-youtube-linux/
+   44  sudo systemctl restart zapret
+   45  telegram-desktop --proxy-type=mtproto --proxy-server=modernmtp.fake
+   46  ~/.local/bin/Telegram/Telegram --proxy-type=tg --proxy-server=1.1.1.1:443
+   47  rm -rf ~/.local/share/TelegramDesktop/
+   48  cd ~/zapret-discord-youtube-linux
+   49  find . -name "*.bat" | head -20
+   50  find . -name "hostlist*" 2>/dev/null
+   51  grep -r "telegram" . 2>/dev/null
+   52  sudo systemctl stop zapret 2>/dev/null
+   53  sudo systemctl disable zapret 2>/dev/null
+   54  rm -rf ~/zapret-discord-youtube-linux
+   55  sudo rm -rf /opt/zapret
+   56  sudo rm -f /etc/systemd/system/zapret.service
+   57  sudo apt update
+   58  sudo apt install -y git curl build-essential libnetfilter-queue-dev libpcap-dev
+   59  git clone https://github.com/bol-van/zapret.git
+   60  cd zapret
+   61  make
+   62  sudo make install
+   63  sudo systemctl stop zapret 2>/dev/null
+   64  sudo systemctl disable zapret 2>/dev/null
+   65  rm -rf ~/zapret
+   66  rm -rf ~/zapret-discord-youtube-linux
+   67  sudo rm -rf /opt/zapret
+   68  sudo rm -f /etc/systemd/system/zapret.service
+   69  sudo rm -f /etc/cron.d/zapret
+   70  sudo apt update
+   71  sudo apt install -y git curl build-essential libnetfilter-queue-dev libpcap-dev make gcc
+   72  cd ~
+   73  git clone https://github.com/bol-van/zapret.git
+   74  cd ~/zapret
+   75  make
+   76  sudo make install
+   77  sudo mkdir -p /opt/zapret /etc/zapret
+   78  sudo cp nfqws tpws /opt/zapret/
+   79  sudo tee /etc/zapret/config > /dev/null << 'EOF'
+   80  DESYNC_OPTS="--dpi-desync=fake,split2 --dpi-desync-split-pos=2 --dpi-desync-fooling=md5sig"
+   81  DESYNC_OPTS_QUIC="--dpi-desync=fake"
+   82  EOF
+   83  sudo tee /etc/systemd/system/zapret.service > /dev/null << 'EOF'
+   84  [Unit]
+   85  Description=Zapret DPI bypass
+   86  After=network.target
+   87  [Service]
+   88  Type=simple
+   89  ExecStart=/opt/zapret/nfqws --daemon --dpi-desync=fake,split2 --dpi-desync-split-pos=2 --dpi-desync-fooling=md5sig
+   90  Restart=on-failure
+   91  [Install]
+   92  WantedBy=multi-user.target
+   93  EOF
+   94  sudo systemctl daemon-reload
+   95  sudo systemctl enable --now zapret
+   96  sudo systemctl status zapret
+   97  cd dirlab_1/
+   98  sudo apt install git
+   99  git config --global user.name "VatutinAE"
+  100  git config --global user.email "artemkhaha@mail.ru"
+  101  sudo apt install ./<file>.deb
+  102  sudo apt update
+  103  sudo apt install software-properties-common apt-transport-https wget
+  104  sudo apt update
+  105  ps aux | grep 14377
+  106  sudo kill 14377
+  107  sudo kill -9 14377
+  108  sudo apt update
+  109  sudo apt install wget gpg apt-transport-https -y
+  110  cd ~/Загрузки
+  111  ls -la code*.deb
+  112  sudo dpkg -i code*.deb
+  113  sudo apt --fix-broken install -y
+  114  code
+  115  sudo apt install g++
+  116  g++ triangle.cpp -o triangle
+  117  ./triangle
+  118  g++ triangle.cpp -o triangle
+  119  ./triangle
+  120  git config –global user.name "VatutinAE"
+  121  cd Загрузки/
+  122  ./code
+  123  cd laba1/
+  124  cd Документы/
+  125  cd Загрузки/
+  126  ./code
+  127  git add --all
+  128  git commit -m "laba_1"
+  129  cd Загрузки/
+  130  ./code
+  131  git config --global user.name "VatutinAE"
+  132  git config --global user.name "artemkhaha@mail.ru"
+  133  cd Загрузки/
+  134  git init
+  135  git add --all
+  136  git commit -m "laba_1"
+  137  git commit -m "code"
+  138  git commit -m "laba_1"
+  139  git commid code.cpp
+  140  git add code.cpp
+  141  git commid -m "laba_1"
+  142  git add code.cpp
+  143  git commit -m "laba_1"
+  144  git add --all
+  145  git commit -m "laba_1"
+  146  git reset --soft HEAD~1
+  147  ls -la\
+  148  nano code.cpp
+  149  git add code.cpp
+  150  git commit -m "laba_1"
+  151  ls -la
+  152  git reset --soft HEAD~1
+  153  git reset HEAD deepseek_bash_20260405_bce009.sh
+  154  git add code.cpp
+  155  echo "*.sh" > .gitignore
+  156  git add .gitignore
+  157  git status
+  158  git commit -m "Laba_1"
+  159  cat code.cpp
+  160  nano code.cpp
+  161  cat code.cpp
+  162  git add code.cpp
+  163  git commit -m "laba_1"
+  164  git add code
+  165  git commit -m "laba_1"
+  166  git add --all
+  167  git commit -m "laba_1"
+  168  git remote origin https://github.com/gonnexx/laba1.git
+  169  git remote add origin https://github.com/gonnexx/laba1.git
+  170  git branch
+  171  git branch VatutinAI-52
+  172  git branch
+  173  git chekout VatutinAI-52 
+  174  git checkout VatutinAI-52
+  175  git merge VatutinAI-52
+  176  cd labrabota_1/
+  177  ./code
+  178  git config --global user.name "VatutinAE"
+  179  git config --global user.name "artemkhaha@mail.ru"
+  180  git init
+  181  git add--all
+  182  git add --all
+  183  git commit -m "laba_1"
+  184  git remote add origin https://github.com/gonnexx/laba1.git
+  185  git branch
+  186  git branch VatutinAI-52
+  187  git branch
+  188  git checkout VatutinAI-52
+  189  git merge VatutinAI-52
+  190  git push -u VatutinAI-52
+  191  git push -u origin VatutinAI-52
+  192  git pull
+  193  git log
+  194  git clone https://github.com/gonnexx/labarabota_1.git
+  195  git clone https://github.com/gonnexx/labrabota_1.git
+  196  git brsnch
+  197  git branch
+  198  git add code.cpp
+  199  git commit -m "Добавлена программа для треугольника"
+  200  git push origin 
+  201  git clone https://github.com/gonnexx/laba1.git
+  202  git branche
+  203  git branch
+  204  git branch main
+  205  git branch
+  206  git push origin code
+  207  git push origin code.cpp
+  208  git push origin laba_1
+  209  git push origin main
+  210  git push origin VatutinAI-52:main
+  211  git branch
+  212  git checkout main
+  213  ls -la code.cpp
+  214  git push origin main
+  215  git push origin main --force
+  216  git reflock
+  217  git reflog
+  218  git branch -a
+  219  cd ~/.labrabota_1
+  220  git checkout -b backup_before_merge
+  221  git checkout main
+  222  git fetch --all
+  223  git merge origin/BalykovAI-52 --allow-unrelated-histories -m "Circle"
+  224  ls -la
+  225  git log --oneline -5
+  226  cd ~/labrabota_1
+  227  git push origin main
+  228  git merge origin/NekrasovAI-52 --allow-unrelated-histories -m "Трапеция"
+  229  cd ~/labrabota_1
+  230  git push origin main
+  231  git checkout main
+  232  git merge origin/rectangle --allow-unrelated-histories -m "Прямоугольник"
+  233  git show :1:proglab_1 > proglab_1.main
+  234  git show :2:proglab_1 > proglab_1.rectangle
+  235  git checkout --ours proglab_1
+  236  git add proglab_1
+  237  git commit -m "в мейн"
+  238  git push origin main
+  239  git pull origin main --no-rebase
+  240  git push origin main
+  241  cd labrabota_1
+  242  git push
+  243  git branch
+  244  code laba1
+  245  code labrabota_1
+  246  code lab_1
+  247  g++
+  248  g++ code.cpp -O main
+  249  g++ code.cpp -O
+  250  ld
+  251  g++ code.cpp
+  252  cd ~/artemvatutin/labrabota_1/laba1
+  253  cd ~/labrabota_1/laba1
+  254  cd ~/labrabota_1
+  255  g++ code.cpp 
+  256  ./code
+  257  git pull
+  258  git branch
+  259  git push
+  260  ./code
+  261  g++ code.cpp
+  262  cd labrabota_1
+  263  g++ code.cpp
+  264  ./code
+  265  cd labrabota_1
+  266  g++ code.cpp
+  267  ./code
+  268  cd labrabota_1
+  269  g++ code.cpp
+  270  ./code
+  271  cd labrabota_1
+  272  git branch
+  273  git branch VatutinAI-52
+  274  git branch
+  275  git checkout VatutinAI-52
+  276  git branch
+  277  git add code.cpp
+  278  git comit -m ""
+  279  ./code
+  280  git branch
+  281  git checkout main
+  282  git pull code.cpp
+  283  git pull code
+  284  git pull
+  285  ./code
+  286  cd labrabota_1
+  287  g++ code.cpp
+  288  ./code
+  289  .code
+  290  ./code
+  291  g++ code.cpp -o code
+  292  ./code
+  293  cd labrabota_1
+  294  git status
+  295  cd labrabota_1
+  296  g++ code.cpp -o code
+  297  ./code
+  298  git clone code.cpp
+  299  git add code
+  300  git commit -m "Ошибок нет"
+  301  git push origin VatutinAI-52
+  302  git branch
+  303  git checkout VatutinAI-52
+  304  git branch
+  305  git push origin VatutinAI-52
+  306  git commit -m "Ошибок нет"
+  307  git add code
+  308  git commit -m "ош нет"
+  309  git push origin VatutinAI-52
+  310  cd labrabota_1
+  311  g++ code.cpp
+  312  ./code
+  313  git switch VatutinAI-52
+  314  git commit -m "ИСправил ошибку"
+  315  git push origin VatutinAI-52
+  316  git pull origin VatutinAI-52
+  317  git push origin VatutinAI-52
+  318  git status
+  319  git log --oneline --graph --all -10
+  320  git branch
+  321  git fetch origin
+  322  git merge origin/VatutinAI-52 --allow-unrelated-histories
+  323  nano code.cpp
+  324  g++ code.cpp -o code
+  325  ./code
+  326  git branch
+  327  git commit -m "исправил ошибку"
+  328  git merge --abort
+  329  git commit -m "исправил ошибку"
+  330  git add code.cpp 
+  331  git commit -m "исправил ошибку"
+  332  git branch
+  333  git add code.cpp
+  334  git commit -m "исправил ошибку"
+  335  git push origin VatutinAI-52 --force
+  336  git add code.cpp
+  337  git commit -o "без ошибок"
+  338  git commit -m "без ошибок"
+  339  git push origin VatutinAI-52
+  340  g++ code.cpp -o code
+  341  ./code
+  342  ./code 4 6 4
+  343  nano code.cpp
+  344  git add code.cpp
+  345  git commit -m "Замена кода на исправленную версию"
+  346  git add code
+  347  git commit -m "Замена кода на исправленную версию"
+  348  git push origin VatutinAI-52
+  349  git add code.cpp
+  350  git commit -m "Обновил код треугольника"
+  351  nano code.cpp
+  352  git status
+  353  git add code.cpp
+  354  git commit -m "Обновил код треугольника"
+  355  git push origin VatutinAI-52
+  356  git status
+  357  cat code.cpp
+  358  g++ code.cpp -o code
+  359  ./code
+  360  ./4 6 4
+  361  4 6 4
+  362  ./code
+  363  git branch
+  364  git checkout main
+  365  git branch
+  366  git push origin
+  367  git checkout main
+  368  git stash
+  369  git checkout main
+  370  git pull 
+  371  git comit -m "asd"
+  372  git mergee origin VatutinAI-52 
+  373  git pus
+  374  mkdir asd
+  375  cd asd
+  376  git remote origin https://github.com/gonnexx/laba1.git
+  377  git branch
+  378  git remote add origin https://github.com/gonnexx/laba1.git
+  379  nano code.cpp
+  380  cd labrabota_1
+  381  cd ..
+  382  nano code.cpp
+  383  g++ code.cpp -o code
+  384  ./code
+  385  g++ code.cpp -o code
+  386  ./code 
+  387  g++ code.cpp -o code
+  388  ./code
+  389  ./code 
+  390  git configg --global user.name
+  391  git status
+  392  git add code.cpp
+  393  git commit -m "Обновил код треугольника в main"
+  394  echo "code" >> .gitignore
+  395  echo "laba1/" >> .gitignore
+  396  echo "proglab_1.*" >> .gitignore
+  397  git add .gitignore
+  398  git commit -m "Добавил игнорирование бинарных файлов"
+  399  git push origin main
+  400  git log
+  401  cd labrabota_1
+  402  git add code.cpp
+  403  git commit -m "комит"
+  404  git add all
+  405  git add .
+  406  git add laba1
+  407  git add laba1\
+  408  git add laba1/
+  409  git commit -m "комит"
+  410  git push
+  411  rm a.out
+  412  rm proglab_1.main
+  413  rm proglab_1.rectangle
+  414  rm -rf laba1/
+  415  rm -f a.out proglab_1.main proglab_1.rectangle
+  416  rm -rf laba1/
+  417  git status
+  418  git rm a.out
+  419  git rm proglab_1.main
+  420  git rm proglab_1.rectangle
+  421  git rm -rf laba1/
+  422  git commit -m "Удалил ненужные файлы"
+  423  git push
+  424  git status
+  425  git add code.cpp
+  426  git commit -m "ептпа"
+  427  git add newfile
+  428  echo""
+  429  newfile
+  430  code.cpp
+  431  echo "" >> code.cpp
+  432  git status
+  433  git add code.cpp
+  434  git commit -m "текст"
+  435  git push
+  436  g++ code -o code
+  437  g++ code.cpp -o code
+  438  ./code
+  439  git branch
+  440  git stash list
+  441  git fetch
+  442  echo "" >> code
+  443  git commit -m "нов изменения"
+  444  git push
+  445  echo "" >> code
+  446  git commit -m "замена"
+  447  git add code
+  448  echo "" >> code
+  449  git commit -m "комит"\
+  450  git push
+  451  git add code
+  452  git commit -m "чочочо"\
+  453  git push
+  454  git add code.cpp
+  455  git commit -m "аничо"
+  456  git add code
+  457  git commit -m "аничо"
+  458  git add code
+  459  echo "" >> code
+  460  git commit -m "аничо"
+  461  echo "" >> code
+  462  git add code
+  463  git commit -m "аничо"\
+  464  git push
+  465  echo "" >> code.cpp
+  466  git add code.cpp
+  467  git commit -m "чозабред"
+  468  git push
+  469  history > commands.txt
