@@ -33,6 +33,21 @@ int main() {
     cout << "Введите высоту трапеции (h): ";
     cin >> h;
     
+    if(a <= 0 || b <= 0 || c <= 0 || d <= 0 || h <= 0) {
+        cout << "ERROR" << endl;
+        return 1;
+    }
+    
+    if(h > c || h > d) {
+        cout << "ERROR" << endl;
+        return 1;
+    }
+    
+    if(a + b + c <= d || a + b + d <= c || a + c + d <= b || b + c + d <= a) {
+        cout << "ERROR" << endl;
+        return 1;
+    }
+    
     cout << "\nРезультаты вычислений:" << endl;
     cout << "Периметр трапеции: " << perimeter(a, b, c, d) << endl;
     cout << "Площадь трапеции: " << area(a, b, h) << endl;
